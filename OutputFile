@@ -1,0 +1,21 @@
+public class Teeny
+{
+	public static void main(String[] args)
+	{
+		System.out.println("How many fibonacci numbers do you want?");
+		int hi = 0; 
+		String word = "TEST"; 
+		System.out.println("");
+		int a = 0; 
+		int b = 1; 
+		while(b>a)
+		{
+		System.out.println("a");
+		int c = a+b; 
+		a = b;
+		b = c;
+		c = hi+1;
+		hi = hi-1;
+		}
+	}//Main
+}//Class
